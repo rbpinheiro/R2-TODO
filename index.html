@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html manifest="tasks.appcache">
+<head>
+	<title>Tasks</title>
+	<meta name="description" content="Task Manager" />
+	<meta name="keywords" content="task, manager, time, list" />
+	<meta name="author" content="Rafael Pinheiro" />
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<div class="wrapper">
+		<h1>R2 TODO</h1>
+		<div style="float:right;">
+			<p>Flux Capacitor</p>
+			<select id="flux-capacitor">
+				<!-- REPLACED BY JS -->
+			</select>
+		</div>
+		<form id="new-task">
+			<input type="text" id="title" name="title" placeholder="Task Title" />
+			<textarea id="description" name="description" placeholder="Task Description"></textarea>
+			<input type="submit" />
+		</form>
+		<ul id="task-list">
+			<!-- REPLACED BY JS -->
+		</ul>
+	</div>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/storage.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
